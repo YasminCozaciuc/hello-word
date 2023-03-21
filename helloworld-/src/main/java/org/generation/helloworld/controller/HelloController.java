@@ -23,5 +23,8 @@ public class HelloController {
 		return "Atenção aos detalhes";
 	}
 	
-	
+	@GetMapping("/objetivos")
+	public String objetivos() {
+		return "Ficar em dia com as entregas de exercícios";
+}
 }
